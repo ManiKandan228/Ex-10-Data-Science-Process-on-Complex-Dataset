@@ -28,12 +28,12 @@ df.head()
 
 ![image](https://github.com/ManiKandan228/Ex-10-Data-Science-Process-on-Complex-Dataset/assets/119160414/cfc5b441-1b5d-482d-971d-df25ceca7943)
 # DATA CLEANING
-# MISSING VALUE
+# Missing Value
 ```
 df.isnull().sum()
 ```
 ![image](https://github.com/ManiKandan228/Ex-10-Data-Science-Process-on-Complex-Dataset/assets/119160414/0624c40a-7503-41fa-a590-adbca9246384)
-# DUPLICATION
+# Duplication
 ```
 df.dropna()
 data = df.drop_duplicates()
